@@ -23,7 +23,7 @@ const Register = () => {
     try {
       const { data } = await axios.post(
         // "http://localhost:4000/api/v1/user/register",
-        "job-zee-zq23-frontend.vercel.app/register"
+        "job-zee-zq23-frontend.vercel.app/register",
         { name, phone, email, role, password },
         {
           headers: {
